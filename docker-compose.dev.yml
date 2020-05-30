@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  bot:
+    build:
+      context: ./app
+    ports:
+      - 8005:80 
+    environment:
+      - BOT_TOKEN=$BOT_TOKEN
+      - WEBHOOK_HOST=$WEBHOOK_HOST
