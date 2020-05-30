@@ -2,6 +2,6 @@
 
 ## How To Run
 
-Dev Mode
+### Prod
 
-    docker=-compose -f docker-compose.dev.yml up
+    docker=-compose -f docker-compose.yml up --build -d
